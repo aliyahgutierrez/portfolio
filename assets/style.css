@@ -14,6 +14,27 @@ img{
     border-radius: 5%;
 }
 
+header, footer{
+    width:100%;
+    background-color:#2A3D45;
+    padding:20px;
+    text-align: center;
+    color:white;
+    margin-top: 35px;
+    }
+    
+h2{
+    width:95%;
+    height:35%;
+    text-align: center;
+    color:white;
+}
+
+section{
+    display:flex;
+    justify-content: center;
+}
+
 
 .topnav {
     background-color: #333;
@@ -41,40 +62,11 @@ img{
     color: white;
 }
 
-header{
-width:100%;
-background-color:#2A3D45;
-padding:20px;
-text-align: center;
-color:white;
-margin-top: 35px;
-}
-
-h2{
-    width:95%;
-    height:35%;
-    text-align: center;
-    color:white;
-}
-
-
 #aboutme-container,#projects-container {
     width:95%;
     height: 35%;
     border:5px solid black;
 }
 
-section{
-    display:flex;
-    justify-content: center;
-}
 
-footer {
-    width:100%;
-    background-color:#2A3D45;
-    padding:20px;
-    text-align: center;
-    color:white;
-    margin-top: 35px;
 
-}
