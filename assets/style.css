@@ -2,16 +2,18 @@ a{
     color: white;
 }
 
-img{
-    float:none;
-    width: 150px;
-    height: 200px;
-    border-radius: 20%;
+body{
+    background-color: #E2CFEA;
 }
 
-p{
-    float:right;
+img{
+    float:left;
+    width: 200px;
+    height: 285px;
+    padding: 10px;
+    border-radius: 5%;
 }
+
 
 .topnav {
     background-color: #333;
@@ -48,7 +50,15 @@ color:white;
 margin-top: 35px;
 }
 
-#aboutme-container,#projects-container,#pastwork-container {
+h2{
+    width:95%;
+    height:35%;
+    text-align: center;
+    color:white;
+}
+
+
+#aboutme-container,#projects-container {
     width:95%;
     height: 35%;
     border:5px solid black;
