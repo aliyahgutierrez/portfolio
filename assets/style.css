@@ -1,3 +1,18 @@
+a{
+    color: white;
+}
+
+img{
+    float:none;
+    width: 150px;
+    height: 200px;
+    border-radius: 20%;
+}
+
+p{
+    float:right;
+}
+
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -31,4 +46,25 @@ padding:20px;
 text-align: center;
 color:white;
 margin-top: 35px;
+}
+
+#aboutme-container,#projects-container,#pastwork-container {
+    width:95%;
+    height: 35%;
+    border:5px solid black;
+}
+
+section{
+    display:flex;
+    justify-content: center;
+}
+
+footer {
+    width:100%;
+    background-color:#2A3D45;
+    padding:20px;
+    text-align: center;
+    color:white;
+    margin-top: 35px;
+
 }
