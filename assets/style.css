@@ -15,6 +15,12 @@ img{
     border-radius: 5%;
 }
 
+.work-img{
+    width:200px;
+    height:285px;
+    padding: 10px;
+}
+
 header, footer{
     width:100%;
     background-color:#2A3D45;
