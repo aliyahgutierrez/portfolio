@@ -15,6 +15,7 @@ img{
     border-radius: 5%;
 }
 
+/* need to figure out how to seperate imgs so I can size them correctly */
 .work-img{
     width:200px;
     height:285px;
@@ -73,6 +74,19 @@ section{
     width:95%;
     height: 35%;
     border:5px solid black;
+}
+
+#contact-container{
+    color:black;
+    width:95%;
+    height:15%;
+    border:5px solid black;
+}
+
+#projects-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
