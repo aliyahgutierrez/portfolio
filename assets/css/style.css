@@ -1,11 +1,6 @@
 /* TOTAL PAGE STYLING */
-/* body,html{
-   height: 100%;
-   width: 100%;
-   margin-bottom: 0;
-} */
 
-
+/* BACKGROUND IMAGE */
  body{
     background-image: url('../images/background.jpg');
     height: 100%;
@@ -46,7 +41,7 @@
 }
 
 .topnav a:hover{
-    color: rgb(124, 161, 206);
+    color: rgb(53, 116, 192);
 }
 
 /* ABOUT ME CONTAINER IMAGE */
@@ -62,10 +57,7 @@ img{
 
     
 }
-.about-me-description p{
-    /* text-align: justify; */
-    font-size: px;
-}
+
 
 
 /* ABOUT ME CONTAINER */
@@ -74,12 +66,13 @@ img{
 .about-me-container, .work-container{
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
+    text-align: start;
     line-height: 40px;
+    padding:30px;
     justify-content:center;
     background-color: white;
     width: 700px;
-    margin:-30px 370px 75px; 
+    margin:-30px 345px 75px; 
     opacity: 80%;
 }
 
@@ -90,6 +83,105 @@ img{
 
 /* PAST WORK PROJECTS */
 
+/* PAST WORK CARD */
+
+/* actual main project card */
+#main-project{
+    width:700px;
+    border-style: solid;
+    border-width: 1px;
+    /* border-radius: 50px; */
+    padding: 10px;
+    margin:20px;
+
+}
+
+/* the mqin project image */
+#main-project img{
+    border-width: 1px;
+    /* border-radius: 50px 50px 50px 50px ; */
+    padding: 20px;
+    width: 87%;
+    opacity: 80%;
+}
+
+/* when hovering on the image opacity turns to 1 and there is a box glow */
+#main-project a img:hover{
+    opacity: 1;
+}
+
+/* font inside the card */
+#main-project h2{
+    font-size:50px;
+    text-align: center;
+    color:rgb(217, 154, 217);
+    font-family: 'La Belle Aurore', cursive;
+}
+
+#main-project p{
+    /* margin-top: 20px; */
+    text-align: center;
+    font-size:20px;
+    /* line-height: 40px; */
+}
+/* the rest of the cards */
+
+.work-card{
+    border-style:solid;
+    border-width: 1px;
+    /* border-radius: 50px; */
+    padding:10px;
+    margin:20px;
+    opacity: 80%;
+}
+
+.work-card img{
+    /* border-radius:50px; */
+    width:200px;
+    height:200px;
+}
+
+.work-card a img:hover{
+    opacity: 1;
+}
+
+/* work card font */
+.work-card h2{
+    font-size:25px;
+    text-align: center;
+    color:rgb(217, 154, 217);
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.work-card p{
+    /* margin-top: 20px; */
+    text-align: center;
+    font-size:20px;
+}
+
 /* CONTACT/FOOTER */
 
+.contact-container{
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.contact-container{
+    text-align: center;
+    font-size: 75px ;
+    font-weight: bold;
+    margin-top:-80px;
+    margin-bottom: 75px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.contact-container a{
+color:rgb(53, 116, 192); 
+text-decoration: none;
+
+}
+
+.contact-container a:hover{
+    color: #EA8C55; 
+}
 /* MEDIA QUERY */
