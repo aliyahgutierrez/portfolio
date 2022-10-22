@@ -10,12 +10,6 @@
     background-repeat: no-repeat;
 }
 
-/* side text */
-/* .side-text{
-   writing-mode:vertical-rl; 
-   text-orientation: upright;
-} */
-
 /* ALIYAH GUTIERREZ HEADER*/
 .top-header, h1{
     color:rgb(217, 154, 217);
@@ -61,6 +55,17 @@ img{
 }
 
 
+/* SIDE TEXT HEADERS FOR THE CONTAINERS*/
+#side-text{
+    writing-mode:vertical-rl; 
+    transform: rotate(-180deg);
+    padding:0px 320px 0px;
+    }
+
+#side-text div{
+    display: flex;
+    align-content: center;
+}
 
 /* ACTUAL CONTAINERS FOR ABOUT ME CONTAINER AND WORK CONTAINER */
 .about-me-container, .work-container{
@@ -76,6 +81,7 @@ img{
     opacity: 80%;
 }
 
+
 /* ABOUT ME TEXT */
 .about-me-container, p, h2{
     font-family: 'Acme', sans-serif;
@@ -86,21 +92,23 @@ img{
 /* WORK SECTION */
 
 /* MAIN PROJECT CARD */
-#main-project{
+/* #main-project{
     width:700px;
     border-style: solid;
     border-width: 1px;
     padding: 10px;
     margin:20px;
 
-}
+} */
 
 /* MAIN PROJECT IMAGE */
 #main-project img{
     border-width: 1px;
-    padding: 20px;
     width: 87%;
     opacity: 80%;
+    border:5px solid black;
+    padding:0px;
+    margin: 38px;
 }
 
 /* HOVER OVER IMAGE TO BRING BACK OPACITY */
@@ -110,7 +118,9 @@ img{
 
 /* TEXT INSIDE THE MAIN PROJECT CARD */
 #main-project h2{
+    text-decoration: underline;
     font-size:50px;
+    margin:0px;
     text-align: center;
     color:rgb(217, 154, 217);
     font-family: 'La Belle Aurore', cursive;
@@ -123,18 +133,20 @@ img{
 }
 
 /* WORK CARDS*/
-.work-card{
+/* .work-card{
     border-style:solid;
     border-width: 1px;
     padding:10px;
     margin:20px;
     opacity: 80%;
-}
+} */
 
 /* WORK CARD IMAGES */
 .work-card img{
+    border:5px solid black;
     opacity: 80%;
-    padding: 5px 20px 10px 5px;
+    padding:0px;
+    margin: 30px;
     width:200px;
     height:200px;
 }
@@ -146,6 +158,8 @@ img{
 
 /* WORK CARD TEXT */
 .work-card h2{
+    text-decoration: underline;
+    margin:0px;
     font-size:25px;
     text-align: center;
     color:rgb(217, 154, 217);
