@@ -57,15 +57,17 @@ img{
 
 /* SIDE TEXT HEADERS FOR THE CONTAINERS*/
 #side-text{
+    font-size:50px;
+    font-family: 'Amatic SC', cursive;
     writing-mode:vertical-rl; 
+    position:absolute;
+    text-decoration: underline;
     transform: rotate(-180deg);
-    padding:0px 320px 0px;
+    padding:0px 320px 277px;
+    align-self: center;
     }
 
-#side-text div{
-    display: flex;
-    align-content: center;
-}
+
 
 /* ACTUAL CONTAINERS FOR ABOUT ME CONTAINER AND WORK CONTAINER */
 .about-me-container, .work-container{
