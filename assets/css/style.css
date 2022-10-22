@@ -16,9 +16,7 @@
    text-orientation: upright;
 } */
 
-/* HEADER */
-
-
+/* ALIYAH GUTIERREZ HEADER*/
 .top-header, h1{
     color:rgb(217, 154, 217);
     font-family: 'La Belle Aurore', cursive;
@@ -50,8 +48,8 @@
     color: rgb(53, 116, 192);
 }
 
-/* ABOUT ME CONTAINER CONATINER */
 
+/* ABOUT ME CONTAINER CONATINER */
 
 /* ABOUT ME IMAGE AVATAR */
 img{
@@ -86,7 +84,6 @@ img{
 
 
 /* WORK SECTION */
-
 
 /* MAIN PROJECT CARD */
 #main-project{
