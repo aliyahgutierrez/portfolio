@@ -10,6 +10,12 @@
     background-repeat: no-repeat;
 }
 
+/* side text */
+/* .side-text{
+   writing-mode:vertical-rl; 
+   text-orientation: upright;
+} */
+
 /* HEADER */
 
 
@@ -44,25 +50,21 @@
     color: rgb(53, 116, 192);
 }
 
-/* ABOUT ME CONTAINER IMAGE */
+/* ABOUT ME CONTAINER CONATINER */
 
 
-
+/* ABOUT ME IMAGE AVATAR */
 img{
-        float: left;
-        margin: 8px 0 0 20px;
-        padding: 4px;
-        width: 250px;
-        height: 350px;
-
-    
+    float: left;
+    margin: 8px 0 0 20px;
+    padding: 4px;
+    width: 250px;
+    height: 350px;
 }
 
 
 
-/* ABOUT ME CONTAINER */
-
-
+/* ACTUAL CONTAINERS FOR ABOUT ME CONTAINER AND WORK CONTAINER */
 .about-me-container, .work-container{
     display: flex;
     flex-wrap: wrap;
@@ -76,41 +78,40 @@ img{
     opacity: 80%;
 }
 
+/* ABOUT ME TEXT */
 .about-me-container, p, h2{
     font-family: 'Acme', sans-serif;
 
 }
 
-/* PAST WORK PROJECTS */
 
-/* PAST WORK CARD */
+/* WORK SECTION */
 
-/* actual main project card */
+
+/* MAIN PROJECT CARD */
 #main-project{
     width:700px;
     border-style: solid;
     border-width: 1px;
-    /* border-radius: 50px; */
     padding: 10px;
     margin:20px;
 
 }
 
-/* the mqin project image */
+/* MAIN PROJECT IMAGE */
 #main-project img{
     border-width: 1px;
-    /* border-radius: 50px 50px 50px 50px ; */
     padding: 20px;
     width: 87%;
     opacity: 80%;
 }
 
-/* when hovering on the image opacity turns to 1 and there is a box glow */
+/* HOVER OVER IMAGE TO BRING BACK OPACITY */
 #main-project a img:hover{
     opacity: 1;
 }
 
-/* font inside the card */
+/* TEXT INSIDE THE MAIN PROJECT CARD */
 #main-project h2{
     font-size:50px;
     text-align: center;
@@ -119,33 +120,34 @@ img{
 }
 
 #main-project p{
-    /* margin-top: 20px; */
     text-align: center;
     font-size:20px;
     /* line-height: 40px; */
 }
-/* the rest of the cards */
 
+/* WORK CARDS*/
 .work-card{
     border-style:solid;
     border-width: 1px;
-    /* border-radius: 50px; */
     padding:10px;
     margin:20px;
     opacity: 80%;
 }
 
+/* WORK CARD IMAGES */
 .work-card img{
-    /* border-radius:50px; */
+    opacity: 80%;
+    padding: 5px 20px 10px 5px;
     width:200px;
     height:200px;
 }
 
+/* HOVER OVER IMAGE TO BRING BACK OPACITY */
 .work-card a img:hover{
     opacity: 1;
 }
 
-/* work card font */
+/* WORK CARD TEXT */
 .work-card h2{
     font-size:25px;
     text-align: center;
@@ -159,12 +161,12 @@ img{
     font-size:20px;
 }
 
-/* CONTACT/FOOTER */
-
+/* CONTACT/FOOTER CONTAINER*/
 .contact-container{
     background-color: transparent;
     overflow: hidden;
 }
+
 
 .contact-container{
     text-align: center;
@@ -175,12 +177,14 @@ img{
     font-family: 'Amatic SC', cursive;
 }
 
+/* CONTACT TEXT */
 .contact-container a{
 color:rgb(53, 116, 192); 
 text-decoration: none;
 
 }
 
+/* HOVER OVER LINK */
 .contact-container a:hover{
     color: #EA8C55; 
 }
