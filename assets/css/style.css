@@ -349,7 +349,7 @@ h2 {
 
     /* WORK CARDS */
 
-    /* MAIN PROJECT */
+    /* MAIN PROJECT WORK CARD*/
     #main-project h2 {
         text-decoration: underline;
         font-size: 50px;
@@ -368,6 +368,7 @@ h2 {
         margin: 26px;
     }
 
+/* REMAINDER OF THE WORK CARDS  */
     .remainder-workcard-container {
         display: flex;
         flex-wrap: wrap;
